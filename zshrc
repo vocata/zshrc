@@ -113,5 +113,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vi=lvim
 alias vim=lvim
+alias lg=lazygit
 
 [ -e $HOME/.env ] && . $HOME/.env
