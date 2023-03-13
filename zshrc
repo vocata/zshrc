@@ -76,6 +76,7 @@ plugins=(
     sudo
     vi-mode
     extract
+    kubectl
     gitignore
     zsh-git-url
     colored-man-pages
@@ -110,5 +111,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias vi=lvim
+alias vim=lvim
 
 [ -e $HOME/.env ] && . $HOME/.env
